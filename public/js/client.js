@@ -1,4 +1,4 @@
-const socket = io("http://localhost:2000");
+const socket = io();
 // const {io} = require('socket.io-client');
 // const socket = io.connect('http://website.com');
 
