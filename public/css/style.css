@@ -1,0 +1,120 @@
+/* .logo {
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+} */
+
+body {
+  background-image: url(kakashi-hatake-theme-br15.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.containerr {
+  max-width: 955px;
+  width: 80%;
+  margin: auto;
+  height: 80vh;
+  flex-direction: column;
+  overflow-y: auto;
+  margin-bottom: 23px;
+  padding: 33px;
+  border: 1px solid rgba(255,255,255,0.18);
+  background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+  margin-left: 7px;
+}
+
+.message {
+  background-color: gray;
+  width: 24%;
+  padding: 10px;
+  margin: 17px 12px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.right {
+  float: right;
+  clear: both;
+  background-color: #00B2FF;
+  color: white;
+}
+
+.left {
+  float: left;
+  clear: both;
+  color: white;
+  background-color: #232323;
+}
+
+#send-container {
+  /* display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 985px;
+  width: 100%; */
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 955px;
+  margin: auto;
+}
+
+.btn {
+  margin-left: 5px;
+}
+
+#messageInp {
+  margin-top: 7px;
+  width: 87%;
+  height: 34px;
+  border-radius: 7px;
+  display: inline;
+  margin-left: 66px;
+}
+
+.main-container{
+    /* border: 2px solid white; */
+    display: flex;
+}
+
+.members{
+  height: 80vh;
+  width: 20%;
+  border: 1px solid rgba(255,255,255,0.18);
+  background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+  margin-left: 40px;
+  color: white;
+}
+
+.avatar{
+  height: 40px;
+  width: 40px;
+  margin-left: 7px;
+  margin-right: 10px;
+}
+
+p{
+  display: inline;
+  font-size: large;
+  font-weight: 700;
+}
+
+.member{
+  border: 1px solid black;
+  margin-top: 5px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
