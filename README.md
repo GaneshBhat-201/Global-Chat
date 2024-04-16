@@ -10,6 +10,19 @@ implemented using Socket.io. In the left section there will be list of users who
 currently in the group and active. Messages will never be stored in database instead
 only usernames are stored which will also be deleted when they leave the chat.
 
+
+  <p float="left">
+  <div>
+  <h4>Jhon:</h4>
+  <img src="https://res.cloudinary.com/dc2etmwnk/image/upload/v1713301597/Screenshot_434_vfhkg3.png" width="700" />
+  </div>
+  <div>
+    <h4>Rock:</h4>
+  <img src="https://res.cloudinary.com/dc2etmwnk/image/upload/v1713301616/Screenshot_435_pj5hl5.png" width="700" /> 
+  </div>
+</p>
+
+
 ### Run the App:
 ```
 npm install
@@ -17,3 +30,5 @@ node app.js
 ```
 
 Link: https://global-chat-4123.onrender.com/
+
+
